@@ -25,6 +25,7 @@
 
 body {
   background: var(--body-bg-url) no-repeat top center/cover;
+  height: 100dvh;
 
   /* background: rgb(0, 100, 126);
   background: radial-gradient(
@@ -182,4 +183,15 @@ footer {
   text-align: center;
 
   font-size: 14px;
+}
+
+/* Midia Queries */
+@media (min-width: 700px) {
+  :root {
+    --body-bg-url: url(./assets/bg-desktop.png);
+  }
+
+  .light {
+    --body-bg-url: url(./assets/bg-desktop-light.png);
+  }
 }
