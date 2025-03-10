@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 :root {
   --text-color: white;
   --body-bg-url: url(./assets/bg-mobile.png);
@@ -23,26 +24,14 @@
   --switch-bg-url: url(./assets/sun.svg);
 }
 
-body {
-  background: var(--body-bg-url) no-repeat top center/cover;
-  height: 100dvh;
-
-  /* background: rgb(0, 100, 126);
-  background: radial-gradient(
-    circle,
-    rgba(0, 60, 126, 1) 0%,
-    rgba(0, 100, 126, 1) 25%,
-    rgba(0, 126, 120, 1) 50%,
-    rgba(0, 126, 60, 1) 75%,
-    rgba(0, 126, 20, 1) 100%
-  );
-  background-repeat: no-repeat;
-  background-attachment: fixed; */
-}
-
 body * {
   font-family: "Inter", serif;
   color: var(--text-color);
+}
+
+body {
+  background: var(--body-bg-url) no-repeat top center/cover;
+  height: 100dvh;
 }
 
 #container {
