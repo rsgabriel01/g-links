@@ -31,15 +31,15 @@ body * {
 
 body {
   background: var(--body-bg-url) no-repeat top center/cover;
-  height: 100dvh;
+  min-height: 100dvh;
 }
 
 #container {
   width: 100%;
   max-width: 588px;
-  margin: 56px auto 0px;
+  margin: 0 auto;
 
-  padding: 0 24px;
+  padding: 56px 24px 0;
 }
 
 /* Profile */
