@@ -126,7 +126,7 @@ ul li a {
   background: var(--btn-bg);
   border: 1px solid var(--btn-border);
 
-  border-radius: 0.5rem;
+  border-radius: 8px;
 
   backdrop-filter: blur(0.25rem);
   -webkit-backdrop-filter: blur(0.25rem);
@@ -176,7 +176,7 @@ footer {
 
   text-align: center;
 
-  font-size: 10.25rem;
+  font-size: 0.875rem;
 }
 
 /* Midia Queries */
