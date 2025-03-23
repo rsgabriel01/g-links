@@ -100,8 +100,6 @@ body {
   height: 1.5rem;
   background: var(--btn-bg);
   border: 1px solid var(--btn-border);
-  backdrop-filter: blur(0.25rem);
-  -webkit-backdrop-filter: blur(0.25rem);
   border-radius: 9999px;
 }
 
@@ -127,9 +125,6 @@ ul li a {
   border: 1px solid var(--btn-border);
 
   border-radius: 8px;
-
-  backdrop-filter: blur(0.25rem);
-  -webkit-backdrop-filter: blur(0.25rem);
 
   text-decoration: none;
   font-weight: 500;
